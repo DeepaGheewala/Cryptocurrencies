@@ -10,7 +10,7 @@ The data Martha will be working with is not ideal, so it will need to follow bel
 * 3) [Clustering Cryptocurrencies Using K-means](#D-3-Clustering-Cryptocurrencies-Using-K-means)
 * 4) [Visualizing Cryptocurrencies Results](#D-4-Visualizing-Cryptocurrencies-Results)
 
-# D-1 Preprocessing the Data for PCA
+## D-1 Preprocessing the Data for PCA
  Steps taken for preprocessing -
  * Read the dataset CSV([crypto_data.csv](https://github.com/DeepaGheewala/Cryptocurrencies/files/8988775/crypto_data.csv))
  * Filter all Trading data
@@ -23,22 +23,30 @@ The data Martha will be working with is not ideal, so it will need to follow bel
  * Scale the dataframe using StandardScaler()
  <p align="center"> <img src="https://user-images.githubusercontent.com/99355701/175863611-8e425c49-a81f-413a-9121-2eed550fbd4f.jpg"  align="center" height="270" width="500">    <img src="https://user-images.githubusercontent.com/99355701/175863433-7e0f00a3-8308-47b9-a111-ce8a16010b34.jpg"  align="center" height="250" width="480"> </p>
  
-# D-2 Reducing Data Dimensions Using PCA
+## D-2 Reducing Data Dimensions Using PCA
 Using PCA to reduce dimension to three principal components. Create a DataFrame with the three principal components.
 
 ![PCData](https://user-images.githubusercontent.com/99355701/175863534-f7ca50be-56ce-4d25-9dde-56c28d43a479.jpg)
 
-# D-3 Clustering Cryptocurrencies Using K-means
-* Creating Elbow Curve
-![elbowcurve](https://user-images.githubusercontent.com/99355701/175864558-9632824f-0f7f-4cd1-9e4d-ac6665182ac0.jpg)
+## D-3 Clustering Cryptocurrencies Using K-means
+* **<ins>Creating Elbow Curve</ins>**
+![elbowcurve](https://user-images.githubusercontent.com/99355701/175865834-2d96fb64-97ec-4acb-9d18-dddee76f6db6.jpg)
 
-* Clustered Data after applying K-Means
+ **<ins>Running K-Means with k=4</ins>**
+
+* **<ins>Clustered Data after applying K-Means</ins>**
 ![clustered_data](https://user-images.githubusercontent.com/99355701/175864587-4d532812-c3dc-4010-b458-3d7a0f6c3cec.jpg)
 
-# D-4 Visualizing Cryptocurrencies Results
-Here is a 3D presentation of Clustered Data there was created in above steps
+## D-4 Visualizing Cryptocurrencies Results
+* Here is a 3D presentation of Clustered Data there was created in above steps
 ![3D_Presentation](https://user-images.githubusercontent.com/99355701/175864992-438114eb-fd6f-4ba6-b3e0-872d293e88ff.jpg)
 
-Scale the tradable data
-Create a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".
+* Scale the tradable data
+* Create a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".
 ![Scatter_Plot](https://user-images.githubusercontent.com/99355701/175865500-c24e6153-421b-489f-8e4f-88fb68166234.jpg)
+
+## Conclusion
+After grouping data into 4 clusters, we couldn't figure out relationship between TotalCoinsMined and TotalCoinSupply.
+
+## Resouces
+### Code File 
