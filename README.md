@@ -46,7 +46,7 @@ Using PCA to reduce dimension to three principal components. Create a DataFrame 
 ![Scatter_Plot](https://user-images.githubusercontent.com/99355701/175865500-c24e6153-421b-489f-8e4f-88fb68166234.jpg)
 
 ## Conclusion
-After grouping data into 4 clusters, we couldn't figure out relationship between TotalCoinsMined and TotalCoinSupply.
+After grouping data into K=4 clusters, we couldn't figure out relationship between TotalCoinsMined and TotalCoinSupply for different cryptoc currencies.
 
 ## Resouces
 ### Code File 
