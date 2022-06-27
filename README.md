@@ -39,7 +39,7 @@ Using PCA to reduce dimension to three principal components. Create a DataFrame 
 
 ## D-4 Visualizing Cryptocurrencies Results
 * Here is a 3D presentation of Clustered Data there was created in above steps
-![3D_Presentation](https://user-images.githubusercontent.com/99355701/175864992-438114eb-fd6f-4ba6-b3e0-872d293e88ff.jpg)
+![3D_Presentation](https://user-images.githubusercontent.com/99355701/175868421-62678257-e4e5-4164-a634-6b630db4cc93.jpg)
 
 * Scale the tradable data
 * Create a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".
