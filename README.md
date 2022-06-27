@@ -50,3 +50,5 @@ After grouping data into 4 clusters, we couldn't figure out relationship between
 
 ## Resouces
 ### Code File 
+
+[crypto_clustering.ipynb](crypto_clustering.ipynb)
